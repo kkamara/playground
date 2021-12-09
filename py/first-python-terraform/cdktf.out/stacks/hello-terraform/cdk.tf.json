@@ -1,0 +1,59 @@
+{
+  "//": {
+    "metadata": {
+      "version": "0.5.0",
+      "stackName": "hello-terraform",
+      "backend": "local"
+    }
+  },
+  "terraform": {
+    "required_providers": {
+      "aws": {
+        "version": "~> 3.42",
+        "source": "hashicorp/aws"
+      }
+    }
+  },
+  "provider": {
+    "aws": [
+      {
+        "region": "eu-west-2"
+      }
+    ]
+  },
+  "resource": {
+    "aws_instance": {
+      "hello": {
+        "ami": "ami-0d26eb3972b7f8c96",
+        "instance_type": "t2.micro",
+        "tags": {
+          "Name": "Python-Demo"
+        },
+        "//": {
+          "metadata": {
+            "path": "hello-terraform/hello",
+            "uniqueId": "hello",
+            "stackTrace": [
+              "new TerraformElement (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\jsii-kernel-GTU1X4\\node_modules\\cdktf\\lib\\terraform-element.js:21:28)",
+              "new TerraformResource (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\jsii-kernel-GTU1X4\\node_modules\\cdktf\\lib\\terraform-resource.js:17:9)",
+              "new Instance (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\jsii-kernel-GTU1X4\\node_modules\\hashicorp_aws\\providers\\aws\\instance.js:136:9)",
+              "C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\tmpicj7mz9s\\lib\\program.js:8367:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\tmpicj7mz9s\\lib\\program.js:8795:24)",
+              "Kernel._create (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\tmpicj7mz9s\\lib\\program.js:8367:34)",
+              "Kernel.create (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\tmpicj7mz9s\\lib\\program.js:8108:29)",
+              "KernelHost.processRequest (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\tmpicj7mz9s\\lib\\program.js:9692:36)",
+              "KernelHost.run (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\tmpicj7mz9s\\lib\\program.js:9655:22)",
+              "Immediate._onImmediate (C:\\Users\\DEVELO~1\\AppData\\Local\\Temp\\tmpicj7mz9s\\lib\\program.js:9656:46)",
+              "processImmediate (node:internal/timers:464:21)"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "output": {
+    "hello_public_ip": {
+      "value": "${aws_instance.hello.public_ip}"
+    }
+  }
+}

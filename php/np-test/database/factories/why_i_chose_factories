@@ -1,0 +1,22 @@
+Factories are great!
+
+No, this is simply an optimal solution that gets the 
+job done in a swift manner that allows your efforts 
+to be spent elsewhere.
+
+Laravel Factory is optimal because of the following:
+* works with very minimal setup, plug n play there abouts
+* is already plugged in to system classes for convenient usage
+* creating a new factory is simply a cli away ;)
+
+For me this blows other solutions out of the water by being
+already a piece of the Laravel system making it easy to work with. 
+
+However, should another solution fill my need to the point that
+Laravel Factory is no longer a viable solution; there would be
+nothing wrong with a change of service.
+
+Since Laravel 5.2 I have yet to see the day another factory service
+fit my needs better than Laravel's own. I have seen one implementation
+opt for a third party package for the 
+aforementioned "right tool for the job" reason.

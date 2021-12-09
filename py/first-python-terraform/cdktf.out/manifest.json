@@ -1,0 +1,11 @@
+{
+  "version": "0.5.0",
+  "stacks": {
+    "hello-terraform": {
+      "name": "hello-terraform",
+      "constructPath": "hello-terraform",
+      "workingDirectory": "stacks\\hello-terraform",
+      "synthesizedStackPath": "stacks\\hello-terraform\\cdk.tf.json"
+    }
+  }
+}
