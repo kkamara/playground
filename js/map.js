@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+/**
+ * @author Kelvin Kamara <www.kelvinkamara.com>
+ */
 
 const a = ['apple','pear','mango',]
 let x = new Map(Object.entries(a))
