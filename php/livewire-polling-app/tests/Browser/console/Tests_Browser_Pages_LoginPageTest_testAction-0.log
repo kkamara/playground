@@ -1,8 +1,0 @@
-[
-    {
-        "level": "SEVERE",
-        "message": "http:\/\/laravel.test\/login 174:8 Uncaught ReferenceError: $ is not defined",
-        "source": "javascript",
-        "timestamp": 1635799563117
-    }
-]
