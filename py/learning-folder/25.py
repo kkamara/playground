@@ -20,3 +20,6 @@ f = Foo()
 f.attr = 'Presto'
 print(f.attr)
 del f.attr
+f.attr = 'Presto'
+print(f._Foo__attr)
+print(f.__getattribute__('_Foo__attr'))
