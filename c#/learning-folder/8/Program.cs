@@ -1,6 +1,7 @@
 ﻿using System;
 using DotArguments;
 using DotArguments.Attributes;
+// https://www.nuget.org/packages/DotArguments
 // dotnet run --age=27 -n Kel input output
 namespace DotArgumentsDemo
 {
