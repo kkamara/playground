@@ -4,6 +4,10 @@
 
 
 
+## Code snippets
+
+* [C# arguments parser](https://github.com/kkamara/playground/blob/main/c%23/learning-folder/8/Program.cs).
+
 ## Installation
 
 * [Dotnet CLI](https://dotnet.microsoft.com/en-us/download).
