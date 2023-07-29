@@ -1,4 +1,4 @@
-![node-react-boilerplate.png](https://github.com/kkamara/useful/blob/main/node-react-boilerplate.png?raw=true)
+<img src="https://github.com/kkamara/useful/blob/main/node-react-boilerplate.png?raw=true" alt="node-react-boilerplate.png" width="300px" />
 
 # c#-workspace
 
