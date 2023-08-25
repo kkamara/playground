@@ -18,7 +18,7 @@ func getResponse(s string) {
 	res, err := http.Get(s)
 
 	if err != nil {
-		log.Fatalln("Nooooooo")
+		log.Fatalln("We failed to get " + s)
 	}
 	mut.Lock()
 	fmt.Printf("%d received from %s\n", res.StatusCode, s)
