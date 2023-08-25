@@ -21,7 +21,7 @@ func getResponse(s string) {
 		log.Fatalln("Nooooooo")
 	}
 	mut.Lock()
-	fmt.Println("%d received from %s", res.StatusCode, s)
+	fmt.Printf("%d received from %s\n", res.StatusCode, s)
 }
 
 func main() {
