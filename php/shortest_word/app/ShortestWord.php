@@ -9,7 +9,7 @@ namespace App;
  */
 class ShortestWord
 {
-    function findShort($str){
+    static function findShort($str){
         $words = explode(" ", $str);
         $shortest = strlen($words[0]);
         for($i=0;$i<count($words);$i++) {
