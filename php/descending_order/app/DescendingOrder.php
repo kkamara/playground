@@ -18,12 +18,12 @@ class DescendingOrder
      * @param int $n
      */
     static public function execute(int $n): int {
-        $res = (string) $n;
+        $nStr = (string) $n;
         $tmp = [];
-        for($i=0; $i < strlen($res); $i++) {
-            $tmp[$i] = $res[$i];
+        for($i=0; $i < strlen($nStr); $i++) {
+            $tmp[$i] = $nStr[$i];
         }
         rsort($tmp);
-        return (int) implode("", $tmp);
+        return (int) implode($tmp);
     }
 }
