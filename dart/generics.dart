@@ -8,7 +8,7 @@ class Pair<A, B> {
   Pair(this.value1, this.value2);
 }
 
-void test() async {
+void test() {
   final names = Pair('foo', 20);
   print(names.value1);
   print(names.value2);
