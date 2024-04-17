@@ -16,3 +16,12 @@ console.log(
 console.log(
 	moment(over18 * 1000).format('YYYY MMM DD h:mm A')
 );
+
+/*
+Apr 17 11:58 AM
+under 18 : 1176807539
+over 18 : 1113735539
+false
+2007 Apr 17 11:58 AM
+2005 Apr 17 11:58 AM
+*/
