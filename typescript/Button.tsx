@@ -13,7 +13,11 @@ type ButtonProps = {
 const Button = forwardRef<View | null, ButtonProps>(
   ({ text, ...pressableProps }, ref) => {
     return (
-      <Pressable ref={ref} {...pressableProps} style={styles.container}>
+      <Pressable
+        ref={ref}
+        {...pressableProps}
+        style={styles.container}
+      >
         <Text style={styles.text}>{text}</Text>
       </Pressable>
     );
