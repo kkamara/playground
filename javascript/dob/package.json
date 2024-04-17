@@ -1,0 +1,14 @@
+{
+  "name": "dob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dob.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/kkamara",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
