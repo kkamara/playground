@@ -22,4 +22,5 @@ var_dump($myA, $myA["test"][0]);
             int(3)
         }
     }
+    int(1)
 */;
