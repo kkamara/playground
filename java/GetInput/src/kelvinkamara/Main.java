@@ -16,24 +16,23 @@ class Main {
 		// Prints the name
 		System.out.println("My name is " + name);
 		
-		System.out.print("Enter your age: ");
-		
+		// Initialize age variables
 		byte age = 0;
 		String strAge;
 		
+		// Loops until we get valid input for age variable
 		while (age <= 0 || age > 120) {
+			System.out.print("Enter your age: ");
 			try {
 				strAge = input.nextLine();
 				age = Byte.parseByte(strAge);
 			} catch (Exception e) {
-				System.out.print("\nEnter your age: ");
 				continue;
 			}
-			System.out.print("\nEnter your age: ");
 		}
 		
 		// Prints the age
-		System.out.println("\nMy age is " + age);
+		System.out.println("My age is " + age);
 		
 		// Closes the scanner
 		input.close();
