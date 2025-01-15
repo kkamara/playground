@@ -7,7 +7,8 @@ import java.io.IOException;
 public class FileRead {
 	public static void main(String[] args) {
 		/* No need for br.close() because using try-with-resources, see https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html */
-		try (BufferedReader br = new BufferedReader(new FileReader(System.getProperty("user.dir")+"\\java\\FileRead\\fileName.txt"))) {
+		String path = System.getProperty("user.dir")+"\\java\\FileRead\\fileName.txt";
+		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 			String line;
 			
 			while ((line = br.readLine()) != null) {
