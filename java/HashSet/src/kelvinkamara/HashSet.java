@@ -3,7 +3,7 @@ package kelvinkamara;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class MyClass {
+public class HashSet {
 
 	public static void main(String[] args) {
 		/* A set can only contain unique elements */

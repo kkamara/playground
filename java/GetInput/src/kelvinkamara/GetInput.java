@@ -2,7 +2,7 @@ package kelvinkamara;
 
 import java.util.Scanner;
 
-class Main {
+class GetInput {
 	public static void main(String[] args) {
 
 		// Creates an object of Scanner

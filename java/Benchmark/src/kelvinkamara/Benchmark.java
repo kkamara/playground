@@ -1,6 +1,6 @@
 package kelvinkamara;
 
-public class MyClass {
+public class Benchmark {
 
 	public static void main(String[] args) {
 		long millis = System.currentTimeMillis();
