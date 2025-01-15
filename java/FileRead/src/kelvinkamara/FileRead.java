@@ -6,9 +6,8 @@ import java.io.IOException;
 
 public class FileRead {
 	public static void main(String[] args) {
-		BufferedReader br = null;
-		try {
-			br = new BufferedReader(new FileReader(System.getProperty("user.dir")+"\\java\\FileRead\\fileName.txt"));
+		/* No need for br.close() because using try-with-resources, see https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html */
+		try (BufferedReader br = new BufferedReader(new FileReader(System.getProperty("user.dir")+"\\java\\FileRead\\fileName.txt"))) {
 			String line;
 			
 			while ((line = br.readLine()) != null) {
@@ -16,12 +15,6 @@ public class FileRead {
 			}
 		} catch (IOException e) {
 			System.out.println(e);
-		} finally {
-			try {
-				br.close();
-			} catch (IOException e) {
-				System.out.println(e);
-			}
 		}
 	}
 }
