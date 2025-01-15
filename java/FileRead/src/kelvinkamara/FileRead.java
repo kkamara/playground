@@ -8,7 +8,7 @@ public class FileRead {
 	public static void main(String[] args) {
 		BufferedReader br = null;
 		try {
-			br = new BufferedReader(new FileReader("C:\\Users\\kamar\\workspace\\playground\\java\\FileRead\\fileName.txt"));
+			br = new BufferedReader(new FileReader(System.getProperty("user.dir")+"\\java\\FileRead\\fileName.txt"));
 			String line;
 			
 			while ((line = br.readLine()) != null) {
