@@ -20,6 +20,8 @@ public class FileWrite {
 			System.out.println(e);
 		} catch (SecurityException e) {
 			System.out.println(e);
+		} catch (Exception e) {
+			System.out.println(e);
 		}
 	}
 }
