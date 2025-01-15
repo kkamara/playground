@@ -1,10 +1,9 @@
 package kelvinkamara;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.ListIterator;
 
-public class ListIterator {
+public class ListIteratorClass {
 
 	public static void main(String[] args) {
 		ArrayList<String> names = new ArrayList<String>();
