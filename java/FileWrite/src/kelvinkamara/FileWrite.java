@@ -18,6 +18,8 @@ public class FileWrite {
 			System.out.println("Done");
 		} catch (IOException e) {
 			System.out.println(e);
+		} catch (SecurityException e) {
+			System.out.println(e);
 		}
 	}
 }
