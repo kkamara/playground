@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 
 public class FileWrite {
 	public static void main(String[] args) {
-		File file = new File("fileName.txt");		
+		File file = new File(System.getProperty("user.dir")+"\\java\\FileWrite\\fileName.txt");		
 		
 		try {
 			if (!file.exists()) {
