@@ -7,7 +7,7 @@ public class HashSetClass {
 
 	public static void main(String[] args) {
 		/* A set can only contain unique elements */
-		HashSet<String> names = new HashSet<String>(); // Optionally define length of HashSet e.g. new HashSet<String>(5)
+		final HashSet<String> names = new HashSet<String>(); // Optionally define length of HashSet e.g. new HashSet<String>(5)
 		names.add("Mark");
 		names.add("Tom");
 		names.add("Jack");

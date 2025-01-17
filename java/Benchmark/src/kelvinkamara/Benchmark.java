@@ -3,7 +3,7 @@ package kelvinkamara;
 public class Benchmark {
 
 	public static void main(String[] args) {
-		long millis = System.currentTimeMillis();
+		final long millis = System.currentTimeMillis();
 		for (long i = 0; i < 10000; i++) {
 			System.out.println("Counting ("+i+")");
 		}

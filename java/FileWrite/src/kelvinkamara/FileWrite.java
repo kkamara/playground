@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 
 public class FileWrite {
 	public static void main(String[] args) {
-		File file = new File(System.getProperty("user.dir")+"\\java\\FileWrite\\fileName.txt");
+		final File file = new File(System.getProperty("user.dir")+"\\java\\FileWrite\\fileName.txt");
 
 		try (PrintWriter pw = new PrintWriter(file)) { /* No need for pw.close() because using try-with-resources, see https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html */
 			if (!file.exists()) {

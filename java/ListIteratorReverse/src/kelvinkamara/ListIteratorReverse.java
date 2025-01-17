@@ -6,7 +6,7 @@ import java.util.ListIterator;
 public class ListIteratorReverse {
 
 	public static void main(String[] args) {
-		ArrayList<String> names = new ArrayList<String>();
+		final ArrayList<String> names = new ArrayList<String>();
 		names.add("Mark");
 		names.add("Tom");
 		names.add("John");

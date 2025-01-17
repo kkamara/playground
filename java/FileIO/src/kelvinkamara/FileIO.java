@@ -21,8 +21,8 @@ public class FileIO {
 			 * For honourable mention see
 			 * 	https://github.com/kkamara/playground/blob/main/java/FileWrite/src/kelvinkamara/FileWrite.java
 			 */
-			String readPath = System.getProperty("user.dir")+"\\java\\FileIO\\testRead.txt";
-			String writePath = System.getProperty("user.dir")+"\\java\\FileIO\\testWrite.txt";
+			final String readPath = System.getProperty("user.dir")+"\\java\\FileIO\\testRead.txt";
+			final String writePath = System.getProperty("user.dir")+"\\java\\FileIO\\testWrite.txt";
 			final Scanner scanner = new Scanner(new File(readPath));
 			final PrintWriter writer = new PrintWriter(new File(writePath));
 			try (scanner; writer) {

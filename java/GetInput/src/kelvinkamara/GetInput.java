@@ -6,12 +6,12 @@ class GetInput {
 	public static void main(String[] args) {
 
 		// Creates an object of Scanner
-		Scanner input = new Scanner(System.in);
+		final Scanner input = new Scanner(System.in);
 		
 		System.out.print("Enter your name: ");
 		
 		// Takes input from the keyboard
-		String name = input.nextLine();
+		final String name = input.nextLine();
 		
 		// Prints the name
 		System.out.println("My name is " + name);
