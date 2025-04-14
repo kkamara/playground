@@ -12,7 +12,7 @@ class CountDivisors
     /**
      * @param int $n
      */
-    static public function execute(int $n): int
+    public static function execute(int $n): int
     {
         $result = 0;
         $divisors = [];

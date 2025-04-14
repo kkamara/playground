@@ -17,7 +17,7 @@ class DescendingOrder
     /**
      * @param int $n
      */
-    static public function execute(int $n): int {
+    public static function execute(int $n): int {
         $nStr = (string) $n;
         $tmp = [];
         for($i=0; $i < strlen($nStr); $i++) {

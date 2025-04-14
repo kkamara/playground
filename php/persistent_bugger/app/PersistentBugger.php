@@ -18,7 +18,7 @@ class PersistentBugger
     /**
      * @param int $num
      */
-    static public function execute(int $num): int {
+    public static function execute(int $num): int {
         $cnt = 0;
         while($num > 9) {
             ++$cnt;

@@ -14,7 +14,7 @@ class ComplimentaryDna
     /**
      * @param string $dna
      */
-    static public function execute($dna)
+    public static function execute($dna)
     {
         $dnaArr = str_split($dna);
         $array = array('A'=>'T','T'=>'A','G'=>'C','C'=>'G');
