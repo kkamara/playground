@@ -9,7 +9,11 @@ namespace App;
  */
 class ShortestWord2
 {
-    public static function execute($str){
+    /**
+     * @param string $str
+     * @return int
+     */
+    public static function execute(string $str): int {
         $result = 0;
         $strArr = explode(" ", $str);
         foreach($strArr as $word) {
