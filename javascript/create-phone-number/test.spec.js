@@ -5,7 +5,7 @@ const { createPhoneNumber, } = require("./main");
 
 let res;
 
-describe("Main test:", () => {
+describe("Main tests:", () => {
   it("Fixed tests", () => {
     res = createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
     res.should.equal("(123) 456-7890");

@@ -4,7 +4,7 @@ const { templateLiteral } = require("./main");
 
 let str, source, res, expectedResult;
 
-describe("Main test:", () => {
+describe("Main tests:", () => {
   it("should parse simple template", done => {
     str = "hello {{ my.val }}";
     source = {

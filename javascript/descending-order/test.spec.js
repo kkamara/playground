@@ -5,7 +5,7 @@ const { descendingOrder } = require("./main");
 
 let res;
 
-describe("Main test:", () => {
+describe("Main tests:", () => {
   it("should complete standard tests", () => {
     res = descendingOrder(0);
     res.should.equal(0);
