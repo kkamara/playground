@@ -10,7 +10,6 @@
 */
 
 /**
- *
  * @param {string} str
  * @return array
  */

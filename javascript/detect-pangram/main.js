@@ -9,7 +9,6 @@
 */
 
 /**
- *
  * @param {string} string
  * @return boolean
  */

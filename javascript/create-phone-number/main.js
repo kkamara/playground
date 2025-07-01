@@ -9,7 +9,6 @@
 */
 
 /**
- *
  * @param {array} numbers
  * @return string
  */

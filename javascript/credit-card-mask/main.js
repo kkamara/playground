@@ -20,7 +20,6 @@
 */
 
 /**
- *
  * @param {string} cc
  * @return string
  */

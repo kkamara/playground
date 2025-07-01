@@ -12,7 +12,6 @@
 */
 
 /**
- *
  * @param {array} integers
  * @return number
  */

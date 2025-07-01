@@ -16,7 +16,6 @@ const validateParams = (str, src) => {
 };
 
 /**
- *
  * @param {string} str
  * @param {object} source
  * @return string|number
