@@ -14,7 +14,7 @@
 */
 
 /**
- * @param {array} n
+ * @param {array} haystack
  * @return string
  */
 function findNeedle(haystack) {
