@@ -1,3 +1,4 @@
+"use strict";
 const chai = require("chai");
 const { digitalRoot, } = require("./main");
 const assert = chai.assert;

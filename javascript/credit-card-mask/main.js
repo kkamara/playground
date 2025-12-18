@@ -1,3 +1,4 @@
+"use strict";
 /*
   Usually when you buy something, you're asked whether your credit
   card number, phone number or answer to your most secret question

@@ -1,3 +1,4 @@
+"use strict";
 const { assert, } = require('chai');
 const { boolToWord, } = require("./main");
 

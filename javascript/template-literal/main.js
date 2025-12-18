@@ -1,3 +1,4 @@
+"use strict";
 /**
  * @param {string} str
  * @param {object} src

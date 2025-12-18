@@ -1,3 +1,4 @@
+"use strict";
 require("mocha");
 
 const { templateLiteral } = require("./main");

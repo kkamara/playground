@@ -1,3 +1,4 @@
+"use strict";
 /*
   Can you find the needle in the haystack?
 

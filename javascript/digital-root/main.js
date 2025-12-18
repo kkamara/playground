@@ -1,3 +1,4 @@
+"use strict";
 /*
   Digital root (or sum of digits) is the recursive sum of all the
   digits in a number.

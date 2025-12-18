@@ -1,3 +1,4 @@
+"use strict";
 const chai = require('chai');
 const { count, } = require("./main");
 const assert = chai.assert;

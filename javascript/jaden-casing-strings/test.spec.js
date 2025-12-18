@@ -1,3 +1,4 @@
+"use strict";
 const { assert, config, } = require('chai');
 require("./main");
 

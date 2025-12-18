@@ -1,3 +1,4 @@
+"use strict";
 /*
   A pangram is a sentence that contains every single letter of the alphabet
   at least once. For example, the sentence "The quick brown fox jumps over

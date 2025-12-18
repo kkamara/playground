@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+"use strict";
 /**
  * @author Kelvin Kamara <www.kelvinkamara.com>
  */
