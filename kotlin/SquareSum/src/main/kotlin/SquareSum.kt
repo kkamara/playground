@@ -1,4 +1,4 @@
-package com.kelvinkamara
+package solution
 
 fun squareSum(n: Array<Int>): Int {
     var result = 0

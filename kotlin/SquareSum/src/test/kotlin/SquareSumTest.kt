@@ -1,4 +1,5 @@
-import com.kelvinkamara.squareSum
+package solution
+
 import kotlin.test.assertEquals
 import kotlin.test.Test
 
