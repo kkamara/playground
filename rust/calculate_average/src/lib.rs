@@ -5,15 +5,14 @@
 /// Note: Empty arrays should return 0.
 
 pub fn find_average(slice: &[f64]) -> f64 {
+    let mut sum: f64 = 0.0;
     if 0 == slice.len() {
-        return 0.0;
+        return sum;
     }
-    let mut res: f64 = 0.0;
     for num in slice {
-        res += num;
+        sum += num;
     }
-    res /= slice.len() as f64;
-    res
+    sum / slice.len() as f64
 }
 
 #[cfg(test)]
