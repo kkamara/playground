@@ -15,7 +15,7 @@
  * Note: I completed this challenge on first try.
  * @param {number} a
  * @param {number} b
- * @return array
+ * @returns {Array<number>}
  */
 function between(a, b) {
   let res = [];

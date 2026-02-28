@@ -5,6 +5,10 @@
   or "Odd" for odd numbers.
 */
 
+/**
+ * @param {number} number 
+ * @returns {string}
+ */
 function evenOrOdd(number) {
   if (Math.abs(number % 2) === 1) {
     return "Odd"

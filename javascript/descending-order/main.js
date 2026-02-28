@@ -12,7 +12,7 @@
 
 /**
  * @param {number} n
- * @return number
+ * @returns {number}
  */
 const descendingOrder = n =>
   Number(

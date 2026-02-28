@@ -10,8 +10,8 @@
 */
 
 /**
- * @param {array} numbers
- * @return string
+ * @param {Array<number>} numbers
+ * @returns {string}
  */
 function createPhoneNumber(numbers){
   let result = "";

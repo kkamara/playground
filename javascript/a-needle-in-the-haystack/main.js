@@ -16,7 +16,7 @@
 
 /**
  * @param {array} haystack
- * @return string
+ * @returns {string}
  */
 function findNeedle(haystack) {
   let result = "found the needle at position ";

@@ -16,7 +16,7 @@
 
 /**
  * @param {number} n
- * @return number
+ * @returns {number}
  */
 function digitalRoot(n) {
   let splitN = `${n}`.split("");

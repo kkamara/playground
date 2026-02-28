@@ -13,8 +13,8 @@
 */
 
 /**
- * @param {array} integers
- * @return number
+ * @param {Array<number>} integers
+ * @returns {number}
  */
 function findOutlier(integers){
   let even = [], odd = [];

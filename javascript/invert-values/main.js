@@ -11,6 +11,10 @@
   the input array.
 */
 
+/**
+ * @param {Array<number>} array 
+ * @returns {Array<number>}
+ */
 function invert(array) {
   const res = [];
   for (const item of array) {

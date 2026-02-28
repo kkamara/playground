@@ -10,7 +10,7 @@
 
 /**
  * @param {number} n
- * @return array
+ * @returns {Array<number>}
  */
 function digitize(n) {
   let result = [];

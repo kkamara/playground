@@ -22,14 +22,14 @@
 Object.defineProperty(
   String.prototype,
   'toJadenCase',
-  { value :
-   function toJadenCase() {
-     let res = []
-     const arr = this.split(" ");
-     for(const item of arr) {
-       res.push(item[0].toUpperCase()+item.slice(1))
-     }
-     return res.join(" ");
-   }
+  {value :
+    function toJadenCase() {
+      let res = []
+      const arr = this.split(" ");
+      for(const item of arr) {
+        res.push(item[0].toUpperCase()+item.slice(1))
+      }
+      return res.join(" ");
+    }
   }
 );

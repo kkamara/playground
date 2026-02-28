@@ -2,6 +2,7 @@
 /**
  * @param {string} str
  * @param {object} src
+ * @throws {Error} if str is not of type string or src is not of type object or src does not contain any keys.
  */
 const validateParams = (str, src) => {
   if (typeof str !== "string")
@@ -19,7 +20,7 @@ const validateParams = (str, src) => {
 /**
  * @param {string} str
  * @param {object} source
- * @return string|number
+ * @returns {string|number}
  */
 const getTemplateValue = (str, source) => {
   let result = -1;
@@ -38,7 +39,7 @@ const getTemplateValue = (str, source) => {
 /**
  *
  * @param {string} str
- * @return *
+ * @returns {string}
  */
 const getTemplate = str => {
   let result = "";
@@ -54,7 +55,7 @@ const getTemplate = str => {
  *
  * @param {string} str template string to part
  * @param {object} source key value pairs for template insertion
- * @return string
+ * @returns {string}
  */
 const templateLiteral = (str, source) => {
   validateParams(str, source);

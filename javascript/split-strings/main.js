@@ -12,7 +12,7 @@
 
 /**
  * @param {string} str
- * @return array
+ * @returns {Array<string>}
  */
 function solution(str){
   let result = [];

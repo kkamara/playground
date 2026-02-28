@@ -8,7 +8,7 @@
 
 /**
  * @param {boolean} b
- * @return string
+ * @returns {string}
  */
 function booleanToString(b){
   return `${b}`;

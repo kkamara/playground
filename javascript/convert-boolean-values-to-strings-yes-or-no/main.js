@@ -6,7 +6,7 @@
 
 /**
  * @param {boolean} n
- * @return string
+ * @returns {string}
  */
 function boolToWord( bool ){
   switch(bool) {

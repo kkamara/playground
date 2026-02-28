@@ -22,7 +22,7 @@
 
 /**
  * @param {string} cc
- * @return string
+ * @returns {string}
  */
 function maskify(cc) {
   if (4 >= cc.length) {

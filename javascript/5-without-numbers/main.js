@@ -9,7 +9,7 @@
 
 /**
  * Note: I completed this challenge on first try.
- * @return {number}
+ * @returns {number}
  */
 function unusualFive() {
   let str = "fives";

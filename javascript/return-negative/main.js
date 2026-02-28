@@ -16,7 +16,7 @@
 
 /**
  * @param {number} num
- * @return number
+ * @returns {number}
  */
 function makeNegative(num) {
   if (0 >= num) {

@@ -9,7 +9,7 @@
 
 /**
  * @param {string} string
- * @return object
+ * @returns {object<string, number>}
  */
 function count(string) {
   const result = {};
