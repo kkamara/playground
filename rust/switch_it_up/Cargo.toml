@@ -1,0 +1,6 @@
+[package]
+name = "switch_it_up"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
