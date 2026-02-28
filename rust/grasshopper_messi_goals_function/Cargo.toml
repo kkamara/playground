@@ -1,0 +1,6 @@
+[package]
+name = "grasshopper_messi_goals_function"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
