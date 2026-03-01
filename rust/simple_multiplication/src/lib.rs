@@ -5,7 +5,8 @@
 pub fn simple_multiplication(number: u8) -> u8 {
     match number % 2 {
         0 => 8 * number,
-        _ => 9 * number,
+        1 => 9 * number,
+        _ => unreachable!(),
     }
 }
 
