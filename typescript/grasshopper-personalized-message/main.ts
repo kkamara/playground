@@ -6,9 +6,9 @@
 
   Use conditionals to return the proper message:
 
-  case	return
-  name equals owner	'Hello boss'
-  otherwise	'Hello guest'
+  case	              return
+  name equals owner	  'Hello boss'
+  otherwise	          'Hello guest'
 */
 
 /*
