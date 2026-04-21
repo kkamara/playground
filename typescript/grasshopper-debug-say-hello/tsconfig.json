@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "types": ["mocha"],
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": ["*.ts"]
+}
